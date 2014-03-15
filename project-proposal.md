@@ -33,9 +33,24 @@ We don't expect to need to clean the data substantially. From our initial tests,
 We believe all of the data--the player, team and conference statistics we're interested in--will be available on ESPN.com, Sports-Reference.com and TeamRankings.com, as described above. 
 
 ### Visualization
+The main visualization will have a simple line graph that shows a weekly ranking of the top 25 teams with a selector for the poll (AP, Coaches/USA Today, ESPN Power Rankings, RPI, etc). A slider will be used to select the desired week. For each week, a separate column chart will display the number of ranked teams per conference. The biggest gainers and losers (# of places moved up/down in the poll versus previous week) will be listed. Top teams and players for that given week will be displayed below the polls graph. Any close or interesting games will be highlighted as well.
+
+![Sketch](images/sketch.jpg)
+
+From the main visualization, a user should be able to click on a team or conference and access their relevant stats. The same goes for accessing a particular player.
 
 ### Must-have features
+We must be able to display information for every college basketball team, conference, and player. The ability to step through a season at least on a weekly basis is a must as well for the main visualization.
 
 ### Optional features
+An optional feature we might want to add is the ability to import and visualize previous seasons. We might want to go back to the introduction of the Coaches Poll in 1993-94 or perhaps back to the introduction of a 64-team NCAA Tournament format in 1985. 
 
 ### Project schedule
+A tentative schedule (subject to change) is as follows:
+* Sunday March 23 - Have data downloaded and in repository, sketch visualizations for display of conference/team/player
+* Sunday March 30 - Create main visualization
+* Sunday April 6 - Conference/Team/Player visualizations created
+* Thursday April 10 - Functional Prototype Due
+* Thursday April 17
+* Thursday April 24
+* Thursday May 1
